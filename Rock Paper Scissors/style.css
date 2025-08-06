@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body {
+    background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+}
+.banner h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: transform 0.2s;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: black;
+    transform: scale(1.15) rotate(-5deg);
+    box-shadow: 0 8px 24px rgba(67,198,172,0.2);
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choice img {
+    width: 80px;
+    height: 80px;
+}
+.choice span {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+    color: #43c6ac;
+}
+.choices{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 40px;
+    margin: 30px 0;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+    gap: 60px;
+    margin: 20px 0;
+}
+.score {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-shadow: 0 2px 8px rgba(67,198,172,0.1);
+}
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+.score.user p#user-score {
+    color: #43c6ac;
+    font-size: 2em;
+    margin: 0;
+}
+.score.comp p#comp-score {
+    color: #ff6a6a;
+    font-size: 2em;
+    margin: 0;
+}
+.msg-container{
+    margin-top: 5rem;
+}
+#msg{
+    background-color: #05376a;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 0;
+    min-height: 40px;
+}
+#reset-btn {
+    background: #43c6ac;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.2s;
+}
+#reset-btn:hover {
+    background: #ff6a6a;
+}
